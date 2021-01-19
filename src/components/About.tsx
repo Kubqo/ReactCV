@@ -49,28 +49,6 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="pt-16">
-                <b className="text-3xl text-gray-800"> Skills </b>
-            </div>
-
-            <div className="m-auto pt-8 items-center md:w-1/2 ">
-                <b className=" text-gray-800 float-left ml-5" > Python </b> <br/>
-                <LinearProgress variant="determinate" value={80} className="m-5 " />
-                <b className=" text-gray-800 float-left ml-5" > Unity / C# </b> <br/>
-                <LinearProgress variant="determinate" value={70} className="m-5" />
-                <b className=" text-gray-800 float-left ml-5" > HTML / CSS </b> <br/>
-                <LinearProgress variant="determinate" value={65} className="m-5" />
-                <b className=" text-gray-800 float-left ml-5" > React / Typescript </b> <br/>
-                <LinearProgress variant="determinate" value={50} className="m-5 " />
-                <b className=" text-gray-800 float-left ml-5" > Github </b> <br/>
-                <LinearProgress variant="determinate" value={50} className="m-5 " />
-                <b className=" text-gray-800 float-left ml-5" > Docker </b> <br/>
-                <LinearProgress variant="determinate" value={40} className="m-5 " />
-                <b className=" text-gray-800 float-left ml-5" > Dev ops / Google Cloud </b> <br/>
-                <LinearProgress variant="determinate" value={30} className="m-5" />
-                <b className=" text-gray-800 float-left ml-5" > Wordpress </b> <br/>
-                <LinearProgress variant="determinate" value={25} className="m-5 mb-16 md:mb-24" />
-            </div>
         </div>
     )
 }
